@@ -30,14 +30,14 @@ const contactMethods = [
     icon: '/icons/gmail_icon.svg',
     handle: 'nerusendesign@gmail.com',
     url: 'mailto:nerusendesign@gmail.com',
-    color: 'hover:bg-red-50 hover:text-red-600 dark:hover:bg-red-950'
+    color: 'hover:bg-gray-50 hover:text-gray-600 dark:hover:bg-gray-950'
   },
   {
     name: 'LinkedIn',
     icon: '/icons/linkedin_icon.svg',
     handle: '@NerusenDesign',
     url: 'https://id.linkedin.com/in/nerusen-design',
-    color: 'hover:bg-cyan-50 hover:text-cyan-600 dark:hover:bg-cyan-950'
+    color: 'hover:bg-gray-50 hover:text-gray-600 dark:hover:bg-gray-950'
   },
   {
     name: 'GitHub',
@@ -51,7 +51,7 @@ const contactMethods = [
     icon: '', // No custom icon available, will use fallback
     handle: '@nerusen',
     url: 'https://tiktok.com/@nerusen',
-    color: 'hover:bg-pink-50 hover:text-pink-600 dark:hover:bg-pink-950'
+    color: 'hover:bg-gray-50 hover:text-gray-600 dark:hover:bg-gray-950'
   }
 ]
 
