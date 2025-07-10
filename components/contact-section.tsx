@@ -28,29 +28,29 @@ const contactMethods = [
   {
     name: 'Email',
     icon: '/icons/gmail_icon.svg',
-    handle: 'lumedalauvigne@gmail.com',
-    url: 'mailto:lumedalauvigne@gmail.com',
+    handle: 'nerusendesign@gmail.com',
+    url: 'mailto:nerusendesign@gmail.com',
     color: 'hover:bg-red-50 hover:text-red-600 dark:hover:bg-red-950'
   },
   {
     name: 'LinkedIn',
     icon: '/icons/linkedin_icon.svg',
-    handle: '@lauvigne.lumeda',
-    url: 'https://linkedin.com/in/lauvigne-lumeda',
+    handle: '@NerusenDesign',
+    url: 'https://id.linkedin.com/in/nerusen-design',
     color: 'hover:bg-cyan-50 hover:text-cyan-600 dark:hover:bg-cyan-950'
   },
   {
     name: 'GitHub',
     icon: '/icons/github_icon.svg',
-    handle: '@yuyuhiei',
-    url: 'https://github.com/yuyuhiei',
+    handle: '@nerusen',
+    url: 'https://github.com/nerusen',
     color: 'hover:bg-gray-50 hover:text-gray-600 dark:hover:bg-gray-950'
   },
   {
     name: 'TikTok',
     icon: '', // No custom icon available, will use fallback
-    handle: '@yuyuhieix',
-    url: 'https://tiktok.com/@yuyuhieix',
+    handle: '@nerusen',
+    url: 'https://tiktok.com/@nerusen',
     color: 'hover:bg-pink-50 hover:text-pink-600 dark:hover:bg-pink-950'
   }
 ]
@@ -59,7 +59,7 @@ export function ContactSection() {
   const { theme } = useTheme()
   
   const handleGetInTouch = () => {
-    window.location.href = 'mailto:lauvigne.lumeda@gmail.com'
+    window.location.href = 'mailto:nerusendesign@gmail.com'
   }
 
   return (
