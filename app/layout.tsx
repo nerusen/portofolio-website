@@ -4,10 +4,10 @@ import { ThemeProvider } from '@/components/theme-provider'
 import { CustomCursor } from '@/components/custom-cursor'
 
 export const metadata: Metadata = {
-  title: 'Dev: Lauvigne | Full Stack Developer & Entrepreneur',
+  title: 'Nerusen | Graphic Designer & Web Designer',
   description: 'Transforming ideas into digital experiences through code, creativity, and innovation. From full-stack development to no-code solutions, I bridge the gap between imagination and reality.',
   keywords: [
-    'Lauvigne Lumeda',
+    'Nelsen Chandra',
     'Full Stack Developer',
     'Entrepreneur',
     'Next.js',
@@ -21,27 +21,27 @@ export const metadata: Metadata = {
     'No-Code',
     'Low-Code'
   ],
-  authors: [{ name: 'Lauvigne Lumeda', url: 'https://github.com/lauvigne' }],
-  creator: 'Lauvigne Lumeda',
-  publisher: 'Lauvigne Lumeda',
+  authors: [{ name: 'Nerusen', url: 'https://github.com/nerusen' }],
+  creator: 'Nelsen Chandra',
+  publisher: 'Nelsen Chandra',
   viewport: 'width=device-width, initial-scale=1',
   robots: 'index, follow',
-  applicationName: 'Dev: Lauvigne',
+  applicationName: 'Nerusen Portofolio',
   
   // Open Graph tags
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: 'https://lauvigne.dev', // Update this with your actual domain
-    siteName: 'Dev: Lauvigne',
-    title: 'Dev: Lauvigne | Full Stack Developer & Entrepreneur',
+    siteName: 'Nerusen',
+    title: 'Nerusen | Graphic Designer & Web Designer',
     description: 'Transforming ideas into digital experiences through code, creativity, and innovation. From full-stack development to no-code solutions.',
     images: [
       {
         url: '/opengraph-image',
         width: 1200,
         height: 630,
-        alt: 'Lauvigne Lumeda - Full Stack Developer',
+        alt: 'Nerusen - Portofolio',
       },
     ],
   },
@@ -49,9 +49,9 @@ export const metadata: Metadata = {
   // Twitter Card tags
   twitter: {
     card: 'summary_large_image',
-    title: 'Dev: Lauvigne | Full Stack Developer & Entrepreneur',
+    title: 'Nelsen Chandra | Graphic Designer & Web Designer',
     description: 'Transforming ideas into digital experiences through code, creativity, and innovation.',
-    creator: '@Yuyuhie1', 
+    creator: '@nerusen', 
     images: ['/opengraph-image'],
   },
   
