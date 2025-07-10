@@ -1,6 +1,6 @@
 export const runtime = 'edge'
 
-export const alt = 'Dev: Lauvigne - Full Stack Developer & Entrepreneur'
+export const alt = 'Nerusen - Graphic Designer & Web Designer'
 export const size = {
   width: 1200,
   height: 630,
