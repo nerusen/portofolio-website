@@ -5,7 +5,7 @@ import ProfileCard from './../src/blocks/Components/ProfileCard/ProfileCard';
 
 export function HeroSection() {
   const [displayText, setDisplayText] = useState('')
-  const fullText = 'Design?\nCoding??\n Developer?'
+  const fullText = 'Design?\nCoding?\n Developer?'
   const [currentIndex, setCurrentIndex] = useState(0)
 
   useEffect(() => {
