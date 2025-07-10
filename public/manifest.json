@@ -1,0 +1,20 @@
+{
+  "name": "Dev: Lauvigne",
+  "short_name": "Lauvigne",
+  "description": "Full Stack Developer & Entrepreneur portfolio",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#00BBFF",
+  "icons": [
+    {
+      "src": "/logo/lauv-logo2.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["portfolio", "technology", "developer"],
+  "lang": "en",
+  "orientation": "portrait-primary"
+}
