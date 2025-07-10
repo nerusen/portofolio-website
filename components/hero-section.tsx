@@ -5,7 +5,7 @@ import ProfileCard from './../src/blocks/Components/ProfileCard/ProfileCard';
 
 export function HeroSection() {
   const [displayText, setDisplayText] = useState('')
-  const fullText = 'Full Stack?\nLow Code?\nNo Code?'
+  const fullText = 'Design?\nCoding??\n Developer?'
   const [currentIndex, setCurrentIndex] = useState(0)
 
   useEffect(() => {
@@ -19,7 +19,7 @@ export function HeroSection() {
   }, [currentIndex, fullText])
 
   const handleSendEmail = () => {
-    window.location.href = 'mailto:lauvigne.lumeda@example.com'
+    window.location.href = 'mailto:nerusendesign@example.com'
   }
 
   return (
@@ -54,9 +54,9 @@ export function HeroSection() {
           <div className="space-y-6 animate-fade-in order-2 lg:order-1 flex justify-center lg:justify-start">
             {/* Profile Image Container */}
             <ProfileCard 
-              name="Lauvigne Lumeda"
-              title="Aspiring Developer and Entrepreneur"
-              handle="yuyuhiei"
+              name="Nelsen Chandra"
+              title="Graphic Designer & Web Designer"
+              handle="nerusen"
               status="Online"
               contactText="Contact Me"  
               avatarUrl="/photos/lumeda_photo.svg"
@@ -65,7 +65,7 @@ export function HeroSection() {
               miniAvatarUrl="/photos/tiltedcard.svg"
               showUserInfo={true}
               enableTilt={true}
-              onContactClick={() => window.location.href = 'mailto:lumedalauvigne@gmail.com'}
+              onContactClick={() => window.location.href = 'mailto:nerusendesign@gmail.com'}
             />
           </div>
         </div>
